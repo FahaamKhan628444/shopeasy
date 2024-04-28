@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../../assets/logo.png";
+import footerLogo from "../../assets/logo1.png";
 import Banner from "../../assets/website/footer-pattern.jpg";
 import {
   FaFacebook,
@@ -46,11 +46,10 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              ShopEasy
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
-              beatae ea recusandae blanditiis veritatis.
+            <p className="md:text-xl italic ">
+              WE MADE SHOPPING EASY FOR YOU!
             </p>
           </div>
 
@@ -108,12 +107,19 @@ const Footer = () => {
               <div className="mt-6">
                 <div className="flex items-center gap-3">
                   <FaLocationArrow />
-                  <p>Noida, Uttar Pradesh</p>
-                </div>
+                  <p><strike>HeadQuarters</strike></p>
+                  <p>Very Soon</p>
+                </div> 
                 <div className="flex items-center gap-3 mt-3">
                   <FaMobileAlt />
-                  <p>+91 123456789</p>
+                  <p > <a href="tel:6284448162">+91 9000080000</a></p> 
+                  
+                </div> 
+                <br />
+                <div className="md:text-0.8rem">
+                <p><a href="">shopeasyhelp@gmail.com</a></p>
                 </div>
+                
               </div>
             </div>
           </div>

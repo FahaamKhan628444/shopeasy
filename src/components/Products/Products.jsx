@@ -1,49 +1,50 @@
 import React from "react";
-import Img1 from "../../assets/women/women.png";
-import Img2 from "../../assets/women/women2.jpg";
-import Img3 from "../../assets/women/women3.jpg";
-import Img4 from "../../assets/women/women4.jpg";
+import Img1 from "../../assets/women/gadget-png-pic.png";
+import Img2 from "../../assets/women/home.png";
+import Img3 from "../../assets/women/sports.png";
+import Img4 from "../../assets/women/books.png";
+import Img5 from "../../assets/women/watch.png"
 import { FaStar } from "react-icons/fa6";
 
 const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Women Ethnic",
-    rating: 5.0,
-    color: "white",
+    title: "Electronics/Gadgets",
+    rating: 4.9,
+    color: "Get upto 40% off",
     aosDelay: "0",
   },
   {
     id: 2,
     img: Img2,
-    title: "Women western",
+    title: "Home & Kitchen",
     rating: 4.5,
-    color: "Red",
+    color: "Get upto 50% off", 
     aosDelay: "200",
   },
   {
     id: 3,
     img: Img3,
-    title: "Goggles",
-    rating: 4.7,
-    color: "brown",
+    title: "Sports & Fitness",
+    rating: 4.2,
+    color: "Get upto 80% off",
     aosDelay: "400",
   },
   {
     id: 4,
     img: Img4,
-    title: "Printed T-Shirt",
-    rating: 4.4,
-    color: "Yellow",
+    title: "Books & Stationary",
+    rating: 4.3,
+    color: "Get upto 60% off",
     aosDelay: "600",
   },
   {
     id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
-    rating: 4.5,
-    color: "Pink",
+    img: Img5,
+    title: "Smart Watches",
+    rating: 4.9,
+    color: "Get upto 40% off",
     aosDelay: "800",
   },
 ];
@@ -54,15 +55,11 @@ const Products = () => {
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">
-            Top Selling Products for you
+          <p data-aos="fade-up" className="text-2xl text-primary">
+            Best Selling Products
           </p>
-          <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Products
-          </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          <p data-aos="fade-up" className="text-xl text-gray-500">
+           Shop with us , get more discount from us
           </p>
         </div>
         {/* Body section */}
@@ -95,7 +92,7 @@ const Products = () => {
           {/* view all button */}
           <div className="flex justify-center">
             <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
-              View All Button
+              View All Products
             </button>
           </div>
         </div>

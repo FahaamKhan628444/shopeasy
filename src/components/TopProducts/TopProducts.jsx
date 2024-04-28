@@ -1,6 +1,6 @@
 import React from "react";
-import Img1 from "../../assets/shirt/shirt.png";
-import Img2 from "../../assets/shirt/shirt2.png";
+import Img1 from "../../assets/shirt/phone.png";
+import Img2 from "../../assets/shirt/key.png";
 import Img3 from "../../assets/shirt/shirt3.png";
 import { FaStar } from "react-icons/fa";
 
@@ -8,9 +8,9 @@ const ProductsData = [
   {
     id: 1,
     img: Img1,
-    title: "Casual Wear",
+    title: "Men's Wear",
     description:
-      "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Collection of more than 100 premium designs of men's wear",
   },
   {
     id: 2,
@@ -33,15 +33,14 @@ const TopProducts = ({ handleOrderPopup }) => {
       <div className="container">
         {/* Header section */}
         <div className="text-left mb-24">
-          <p data-aos="fade-up" className="text-sm text-primary">
+          {/* <p data-aos="fade-up" className="text-sm text-primary">
             Top Rated Products for you
-          </p>
+          </p> */}
           <h1 data-aos="fade-up" className="text-3xl font-bold">
-            Best Products
+            Electronics & Accessories
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          <p data-aos="fade-up" className="text-xl text-gray-600">
+            Get newly launched electronic items at SHOPEASY
           </p>
         </div>
         {/* Body section */}
@@ -52,7 +51,7 @@ const TopProducts = ({ handleOrderPopup }) => {
               className="rounded-2xl bg-white dark:bg-gray-800 hover:bg-black/80 dark:hover:bg-primary hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
             >
               {/* image section */}
-              <div className="h-[100px]">
+              <div className="h-[50px]">
                 <img
                   src={data.img}
                   alt=""

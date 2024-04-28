@@ -19,15 +19,17 @@ const Subscribe = () => {
     >
       <div className="container backdrop-blur-sm py-10">
         <div className="space-y-6 max-w-xl mx-auto">
-          <h1 className="text-2xl !text-center sm:text-left sm:text-4xl font-semibold">
-            Get Notified About New Products
+          <h1 className="text-2xl !text-center sm:text-left sm:text-2xl font-semibold">
+            Get Notified About our New Products
           </h1>
           <input
-            data-aos="fade-up"
+            data-aos="zoom-in"
             type="text"
             placeholder="Enter your email"
-            className="w-full p-3"
+            className="w-full p-3 rounded-lg"
           />
+
+
         </div>
       </div>
     </div>

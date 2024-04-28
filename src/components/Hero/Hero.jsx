@@ -1,30 +1,29 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
-import Image3 from "../../assets/hero/sale.png";
+import Image1 from "../../assets/hero/apple.png";
+import Image2 from "../../assets/hero/sale.png";
+import Image3 from "../../assets/hero/home.png";
 import Slider from "react-slick";
 
 const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
-    description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Mabook Air M3 15-inch",
+    description:"Newly Launched Macbook Air M3 is now available at ShopEasy.Order now and get FREE Macbook Cover Case.",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Women's Wear",
+    title: "Big Saving Days Sale...",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Bigger discounts, buy 1 get one and many more in the Sale. EXPLORE NOW",
   },
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "Get your product at your Doorstep",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "ShopEasy provides online delivery service at more than 30+ cities. FREE DELIVERY on order above Rs.499",
   },
 ];
 
@@ -36,7 +35,7 @@ const Hero = ({ handleOrderPopup }) => {
     speed: 800,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 2000,
     cssEase: "ease-in-out",
     pauseOnHover: false,
     pauseOnFocus: true,
@@ -66,7 +65,7 @@ const Hero = ({ handleOrderPopup }) => {
                     data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="100"
-                    className="text-sm"
+                    className="text-xm"
                   >
                     {data.description}
                   </p>
